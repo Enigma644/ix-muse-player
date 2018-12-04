@@ -1,0 +1,6 @@
+[submodule "3rdparty/lo"]
+	path = 3rdparty/lo
+	url = https://bitbucket.org/interaxon/3rdparty_liblo.git
+[submodule "3rdparty/hdf5storage"]
+	path = 3rdparty/hdf5storage
+	url = https://github.com/frejanordsiek/hdf5storage

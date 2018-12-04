@@ -1,0 +1,18 @@
+3rd party tools.
+
+The following structure should be used for each component.
+
+
+/<component>/   		-- root directory for the component. Other repos will point to individual
+				   directories as submoldules.
+
+	latest			-- a symlink to the latest version
+	<version>/		-- a separate directory for each version
+
+		include/ 	-- include files
+		src/		-- typically will contain an archive of source files. This is here only for convenience.
+		<platform>/	-- directory for each platform: one of  win32, macx, ios, android, linux32. Please discuss
+				   if adding new platforms.
+			lib/	-- platform specific library files
+			bin/	-- platform specific binaries if any
+
